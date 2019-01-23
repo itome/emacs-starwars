@@ -1,0 +1,12 @@
+* Emacs Starwars
+
+Starwars on Emacs. Inspired by [[https://github.com/mattn/vim-starwars][vim-starwars]]
+
+*** Screenshot
+    [[./screenshot.gif]]
+    
+
+** Credits
+- Original art work : Simon Jansen ([[http://www.asciimation.co.nz/]])
+- Inspiration: Martin W. Kirst ([[https://github.com/nitram509/ascii-telnet-server][ascii-telnet-server]])
+- Stream ASCII movies over HTTP: ([[ascii-tv][ascii-tv]])

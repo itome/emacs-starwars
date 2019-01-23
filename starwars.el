@@ -12,7 +12,7 @@
              (cond
               ((= (% index 14) 0)
                (sit-for sit-time)
-               (setf sit-time (/ (string-to-number (concat line ".0")) 15))
+               (setf sit-time (/ (string-to-number (concat line ".0")) 30))
                (erase-buffer))
               (t (insert line) (newline))))))
 
