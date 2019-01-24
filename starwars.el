@@ -34,7 +34,7 @@
   (switch-to-buffer (get-buffer-create "starwars"))
   (erase-buffer)
   (sit-for 0)
-  (let* ((index -1)
+  (let ((index -1)
          (sit-time 0)
          (lines (starwars--read-lines "./sw1.txt")))
     (cl-loop for line in lines
